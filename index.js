@@ -35,4 +35,4 @@ app.get("/v1/institute-with-rank", (req, res) =>{
 
 
 //Initializing Server
-app.listen(7000, ()=> console.log("Server Up at http://localhost:7000"));
+app.listen(process.env.PORT || 7000, ()=> console.log("Server Up at http://localhost:7000"));
