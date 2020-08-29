@@ -7,8 +7,8 @@ var Database;
 
 
 // Variables to be converted to use enviornment variables
-// process.env.dbUrl = "mongodb://localhost:27017/counselling";
-
+process.env.dbUrl = process.env.dbUrl | "mongodb://localhost:27017/counselling";
+console.log(process.env.dbUrl);
 
 //Database
 mongo.connect(process.env.dbUrl,
