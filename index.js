@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const mongo = require('mongoose');
-const env = require('dotenv');
 
 var Database;
 
