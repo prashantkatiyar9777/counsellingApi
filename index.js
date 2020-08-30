@@ -6,7 +6,7 @@ var Database;
 
 
 //Database
-mongo.connect("mongodb://localhost:27017/counselling",
+mongo.connect(process.env.dbUrl,
     {useUnifiedTopology: true, useNewUrlParser: true},
     (err, db) => {
     if(err) throw err;
