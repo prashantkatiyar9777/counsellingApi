@@ -16,15 +16,9 @@ module.exports = function(data, rank, category){
 
     data.forEach(institute =>{
         institute[category].forEach(branch =>{
-            // branch.data.forEach(round =>{
-            //     if(round.closing >= rank){
-            //         finalData.push(new Data(institute.shortID, branch.branch, round.round, round.opening, round.closing));
-            //         return;
-            //     }
-            // })
 
             for(round of branch.data){
-                if(round.closing >= rank-1000){
+                if(round.closing >= rank-(rank*0.05)){
                     finalData.push(new Data(institute.shortID, branch.branch, round.round, round.opening, round.closing));
                     break;
                 }
