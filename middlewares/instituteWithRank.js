@@ -6,7 +6,7 @@ module.exports = function(req, res, Database){
 
     var query = {
         [category+".data.closing"]: {
-            $lt: rank
+            $gt: rank
         }
     }
 
@@ -17,6 +17,4 @@ module.exports = function(req, res, Database){
         res.json(finalData);
     })
 
-
-    //TODO : Filter out data
 }
