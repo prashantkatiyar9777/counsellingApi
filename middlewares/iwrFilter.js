@@ -16,16 +16,22 @@ module.exports = function(data, rank, category){
 
     data.forEach(institute =>{
         institute[category].forEach(branch =>{
-            branch.data.forEach(round =>{
-                if(round.closing >= rank){
+            // branch.data.forEach(round =>{
+            //     if(round.closing >= rank){
+            //         finalData.push(new Data(institute.shortID, branch.branch, round.round, round.opening, round.closing));
+            //         return;
+            //     }
+            // })
+
+            for(round of branch.data){
+                if(round.closing >= rank-1000){
                     finalData.push(new Data(institute.shortID, branch.branch, round.round, round.opening, round.closing));
+                    break;
                 }
-            })
+            }
         })
     })
 
-    
-    console.log("Filter working");
     return finalData
             .sort(function(a, b){return Math.min(a.round, b.round)})
             .sort(function(a, b){return a.closing - b.closing})
