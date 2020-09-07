@@ -11,6 +11,7 @@
   "author": "crossphoton",
   "license": "MIT",
   "dependencies": {
+    "@tensorflow/tfjs-node": "2.3.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.0"
   },
