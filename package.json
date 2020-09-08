@@ -13,7 +13,7 @@
   "dependencies": {
     "@tensorflow/tfjs-node": "1.2.10",
     "express": "^4.17.1",
-    "mongoose": "^5.10.0"
+    "mongodb": "^3.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

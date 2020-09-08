@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const mongo = require('mongoose');
+const mongo = require('mongodb');
 
 var Database;
 
@@ -8,9 +8,9 @@ var Database;
 //Database
 mongo.connect(process.env.dbUrl,
     {useUnifiedTopology: true, useNewUrlParser: true},
-    (err, db) => {
+    (err, client) => {
     if(err) throw err;
-    Database = db;
+    Database = client.db("counselling");
     console.log("Database connected.");
 });
 
@@ -40,4 +40,4 @@ app.get("/v1/rank-with-percentile", (req, res)=>{
 
 
 //Initializing Server
-app.listen(process.env.PORT || 7000, ()=> console.log("Server Up at http://localhost:7000"));
+app.listen(process.env.PORT || 7000, ()=> console.log("Server Up"));
