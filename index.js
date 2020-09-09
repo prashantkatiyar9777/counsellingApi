@@ -24,7 +24,9 @@ const rankWithPercentile = require("./middlewares/rankWithPercentile");
 
 //Routes
 app.get("/v1/institute-data/:institute", (req, res)=>{
-    res.redirect(`${instituteUrl}/${req.params.institute}.json`);
+    if(req.params.institute)
+        return res.redirect(`${instituteUrl}/${req.params.institute}.json`);
+    return res.json({error: "Invalid parameters", params: req.params});
 })
 
 app.get("/v1/institute-with-rank", (req, res) =>{
