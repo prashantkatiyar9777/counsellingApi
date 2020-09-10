@@ -1,0 +1,89 @@
+[
+    {
+        "Name": "IIIT Allahabad",
+        "NIRF Ranking 2020": "103",
+        "Avg Package": "20.6",
+        "Highest Package": "45",
+        "QS Ranking 2020": "40",
+        "shortID": "iiita"
+    },
+    {
+        "Name": "IIIT Dharwad",
+        "Avg Package": "4",
+        "Highest Package": "13",
+        "shortID": "iiitdwd"
+    },
+    {
+        "Name": "IIIT Guwahati",
+        "NIRF Ranking 2020": "66",
+        "Avg Package": "10.2",
+        "Highest Package": "17",
+        "shortID": "iiitg"
+    },
+    {
+        "Name": "ABV-IIITM Gwalior",
+        "NIRF Ranking 2020": "100",
+        "Avg Package": "14.58",
+        "Highest Package": "42",
+        "shortID": "iiitm"
+    },
+    {
+        "Name": "IIIT Jabalpur",
+        "NIRF Ranking 2020": "81",
+        "Avg Package": "9.9",
+        "Highest Package": "23",
+        "shortID": "iiitdmj"
+    },
+    {
+        "Name": "IIIT Kalyani",
+        "Avg Package": "6.2",
+        "Highest Package": "17",
+        "shortID": "iiitkalyani"
+    },
+    {
+        "Name": "IIIT Kancheepuram",
+        "NIRF Ranking 2020": "182",
+        "shortID": "iiitdm"
+    },
+    {
+        "Name": "IIIT Kota",
+        "Avg Package": "10",
+        "Highest Package": "29",
+        "shortID": "iiitkota"
+    },
+    {
+        "Name": "IIIT Lucknow",
+        "Avg Package": "18.43",
+        "Highest Package": "43",
+        "shortID": "iiitl"
+    },
+    {
+        "Name": "IIIT Nagpur",
+        "Avg Package": "8.5",
+        "Highest Package": "20",
+        "shortID": "iiitn"
+    },
+    {
+        "Name": "IIIT Pune",
+        "Avg Package": "7.58",
+        "Highest Package": "22",
+        "shortID": "iiitp"
+    },
+    {
+        "Name": "IIIT Sonepat",
+        "Highest Package": "24",
+        "shortID": "iiitsonepat"
+    },
+    {
+        "Name": "IIIT Una",
+        "Avg Package": "8",
+        "Highest Package": "15",
+        "shortID": "iiitu"
+    },
+    {
+        "Name": "IIIT Vadodara",
+        "Avg Package": "10.74",
+        "Highest Package": "36",
+        "shortID": "iiitvadodara"
+    }
+]

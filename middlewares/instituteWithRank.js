@@ -4,7 +4,7 @@ module.exports = function(req, res, Database){
     const rank = Number(req.query.rank);
     const category = req.query.category;
 
-    if(category && percentile){
+    if(category && rank){
         var query = {
             [category+".data.closing"]: {
                 $gt: rank
@@ -18,5 +18,6 @@ module.exports = function(req, res, Database){
             return res.json(finalData);
         })
     }
-    return res.json({error: "Invalid Parameters", query: req.query});
+    else
+        return res.json({error: "Invalid Parameters", query: req.query});
 }

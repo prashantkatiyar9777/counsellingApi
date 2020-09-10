@@ -1,0 +1,166 @@
+[
+    {
+        "name": "IIIT Raichur",
+        "fullName": "Indian institute of information technology, Raichur, Karnataka",
+        "shortID": "iiitr",
+        "branch": ["Computer Science and Engineering"]
+    },
+    {
+        "name": "IIIT Nagpur",
+        "fullName":"Indian Institute of Information Technology, Nagpur",
+        "shortID": "iiitn",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Kalyani",
+        "fullName": "Indian Institute of Information Technology Kalyani, West Bengal",
+        "shortID": "iiitkalyani",
+        "branch": ["Computer Science and Engineering"]
+    },
+    {
+        "name": "IIIT Lucknow",
+        "shortID": "iiitl",
+        "fullName": "Indian Institute of Information Technology Lucknow",
+        "branch": ["Computer Science and Engineering", "Information Technology"]
+    },
+    {
+        "name": "IIIT Dharwad",
+        "shortID": "iiitdwd",
+        "fullName": "Indian Institute of Information Technology Dharwad",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Bhopal",
+        "shortID": "iiitbhopal",
+        "fullName": "Indian Institute of Information Technology Bhopal",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering", "Information Technology"]
+    },
+    {
+        "name": "IIIT Kottayam",
+        "shortID": "iiitkottayam",
+        "fullName": "Indian Institute of Information Technology Kottayam",
+        "branch": ["Computer Science and Engineering"]
+    },
+    {
+        "name": "IIIT Ranchi",
+        "shortID": "iiitranchi",
+        "fullName": "Indian Institute of Information Technology Ranchi",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Una",
+        "shortID": "iiitu",
+        "fullName": "Indian Institute of Information Technology Una, Himachal Pradesh",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering", "Information Technology"]
+    },
+    {
+        "name": "IIIT Surat",
+        "shortID": "iiitsurat",
+        "fullName": "Indian Institute of Information Technology Surat",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Manipur",
+        "fullName": "Indian Institute of Information Technology Manipur",
+        "shortID": "iiitmanipur",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIITDM Kurnool",
+        "shortID": "iiitk",
+        "fullName": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh ",
+        "branch": ["Computer Science and Engineering",
+            "Electonics and Communication Engineering with specialization in Design and Manufacturing",
+            "Mechanical Engineering with specialization in Design and Manufacturing"]
+    },
+    {
+        "name": "IIIT Kota",
+        "shortID": "iiitkota",
+        "fullName": "Indian Institute of Information Technology Kota, Rajasthan",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Bhagalpur",
+        "shortID": "iiitbh",
+        "fullName": "Indian Institute of Information Technology Bhagalpur",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering", "Mechatronics Engineering"]
+    },
+    {
+        "name": "IIIT Allahabad",
+        "shortID": "iiita",
+        "fullName": "Indian Institute of Information Technology, Allahabad",
+        "branch": ["Information Technology", "Electonics and Communication Engineering", "Information Technology-Business Informatics"]
+    },
+    {
+        "name": "IIITM Gwalior",
+        "fullName": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+        "shortID": "iiitm",
+        "branch": ["Computer Science and Engineering",
+            "Integrated B. Tech.(IT) and M. Tech (IT)",
+            "Integrated B. Tech.(IT) and MBA"
+        ]
+    },
+    {
+        "name": "IIITDM Jabalpur",
+        "shortID": "iiitdmj",
+        "fullName": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering", "Mechanical Engineering"]
+    },
+    {
+        "name": "IIITDM Kancheepuram",
+        "shortID": "iiitdm",
+        "fullName": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+        "branch": ["Computer Science and Engineering",
+            "Electonics and Communication Engineering",
+            "Mechanical Engineering",
+            "Smart Manufacturing",
+            "Mechanical Engineering and M. Tech. in Mechanical Engineering with specialization in Product Design",
+            "Mechanical Engineering and M. Tech. Mechanical Engineering with specialization in Advanced Manufacturing",
+            "Computer Science and Engineering (Dual Degree)",
+            "Electronics and Communication Engineering and M. Tech. with specialization in Communication Systems Design",
+            "Electronics and Communication Engineering and M. Tech. with specialization in VLSI Design"
+        ]
+    },
+    {
+        "name": "IIIT Pune",
+        "shortID": "iiitp",
+        "fullName": " Indian Institute of Information Technology Pune",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Guwahati",
+        "shortID": "iiitg",
+        "fullName": "Indian Institute of Information Technology Guwahati",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Sri City",
+        "shortID": "iiits",
+        "fullName": "Indian Institute of Information Technology, Sri City, Chittoor",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Vadodara",
+        "shortID": "iiitvadodara",
+        "fullName": "Indian Institute of Information Technology, Vadodara, Gujrat",
+        "branch": ["Computer Science and Engineering", "Information Technology"]
+    },
+    {
+        "name": "IIIT Tiruchirappalli",
+        "shortID": "iiitt",
+        "fullName": "Indian Institute of Information Technology Srirangam, Tiruchirappalli",
+        "branch": ["Computer Science and Engineering", "Electonics and Communication Engineering"]
+    },
+    {
+        "name": "IIIT Sonepat",
+        "shortID": "iiitsonepat",
+        "fullName": "Indian Institute of Information Technology Kilohrad, Sonepat, Haryana",
+        "branch": ["Computer Science and Engineering", "Information Technology"]
+    },
+    {
+        "name": "IIIT Agartala",
+        "shortID": "iiitagartala",
+        "fullName": "Indian Institute of Information Technology, Agartala",
+        "branch": ["Computer Science and Engineering"]
+    }
+]
